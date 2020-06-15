@@ -1,0 +1,9 @@
+{
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "js:* debug:* express:*"
+  },
+  "watch": ["routes", "middlewares", "app.js", "utils"],
+  "ignore": ["node_modules"],
+  "exec": "babel-node ./bin/www"
+}
